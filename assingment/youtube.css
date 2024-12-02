@@ -1,0 +1,165 @@
+
+*{
+ margin: 0;
+ padding: 0px;
+ box-sizing: border-box;
+ font-size: 70px;
+ font-style: bold;
+ font-weight: 450;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, 
+body{
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img {
+    width: 450px;
+    height: auto;
+}
+.center-nav{
+    display: flex;
+}
+.search{
+    display: flex;
+    border-radius: 90px;
+  
+}
+.search input{
+    min-width: 1500px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+   
+.search button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+} 
+}
+.search img{
+    width: 110px;
+}
+.mic{
+    padding: 15px;
+    border-radius: 80%;
+    background: #ccc;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.mic img{
+    width: 90px;
+}
+.sidenav{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.image img{
+    height: 90px;
+    gap: 50px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 50px;
+}
+.tagdark{
+    padding: 5px 15px;
+    border-radius: 80px;
+    border: 1px solid rgb(240, 239, 239);
+    background-color: black;
+    color: white;
+}
+.taglight{
+    padding: 5px 15px;
+    border-radius: 80px;
+    border: 1px solid rgb(240, 239, 239);
+    background-color: white;
+    color: black;
+}
+.bars img{
+    height: 90px;
+}
+.side-icons img{
+    height: 90px;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.container{
+    display: flex;
+}
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icons p{
+    font-size: 50px;
+}
+.bars{
+    margin-top: 20px;
+}
+.main-container{
+    width: 100%;
+}
+.gap{
+   display: inline-block;
+    margin: 10px;
+   
+    padding: 10px;
+}
+.nahoosat{
+    display: inline-block;
+}
+.button{
+    border-radius: 50px;
+}
+    .center-nav{
+        border-radius: 30px;
+    }
+    .taglight{
+        background-color: rgb(240, 239, 239);
+        color: black;
+        transition: 1s;
+    }
+    .taglight:hover{
+        color: rgb(2, 2, 2);
+        background-color: rgb(203, 197, 197);
+    }
+    .mic:hover{
+        background-color: rgb(228, 220, 220);
+    }
+    .image:hover{
+        background-color: rgb(228, 220, 220);
+
+    }
+    .bars:hover{
+        background-color: rgb(228, 220, 220);
+    }
+    .bbb:hover{
+        background-color: rgb(228, 220, 220);
+    }
+   .chota-font:hover{
+    background-color: rgb(228, 220, 220);
+    
+   }
+
+   .search input{
+    border-radius: 0px;
+   }
+   
